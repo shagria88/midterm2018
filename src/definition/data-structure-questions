@@ -1,37 +1,116 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+Answer:
+
+
 What are the various operations that can be performed on different Data Structures?
+Answer:
+
+
 List out the areas in which data structures are applied extensively?
+Answer:
+
+
 what is an Array?
+Answer:
+
+
 what is the difference between the Array and ArrayList?
+Answer:
+
+
 what is LinkedList?
+Answer:
+
+
 How is an Array different from Linked List?
+Answer:
+
+
 what is queue?
+Answer:
+
+
 what is stack?
+Answer:
+
+
 what is FIFO and LIFO?
+Answer:
+
+
 what is the order of complexity?
+Answer:
+
+
 what is the best case to search an element from an array?
+Answer:
+
+
 what is the worst case to search an element from an array?
+Answer:
+
+
 what is tree in data structure?
+Answer:
+
+
 what is graph in data structure?
+Answer:
+
+
 what is the difference between the HashTable and HashMap?
+Answer:
+
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Answer:
+
+
 How HashMap works in java?
+Answer:
+
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Answer:
+
+
 What are the different ways of copying an array into another array?
+Answer:
+
+
 What is difference between an array and a linked list?
+Answer:
+
+
 What is DFS and BFS?
+Answer:
+
+
 What is Recursion?
+Answer:
+
+
 What are linear and non linear data Structures?
+Answer:
+
+
 What is Big-(O)-notation?
+Answer:
+
+
 Outlined different kind of sorting algorithm with time complexity?
+Answer:
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
+
+  Answer:
+
 
 
