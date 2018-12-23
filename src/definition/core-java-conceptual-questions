@@ -48,27 +48,28 @@ Since it is static it can be directly invoked via the class.
 
 
 Which class is the superclass of all classes?
-Answer:
+Answer: Object is a super class of any class
 
 
 What is difference between path and classpath variables?
-Answer:
+Answer: - Path is an environment variable which is used by the operating system to find the executables.
+        - Classpath is an environment variable which is used by the Java compiler to find the path, of classes.
 
 
 What is the difference between an Interface and Abstract class?
-Answer:
-
+Answer: -
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 Answer:
 
 
 what is Access Specifier?
-Answer:
+Answer: The  access specifiers private and protected cannot be assigned to a class. 
 
 
 What is OOP ? Define each feature of java OOP.
-Answer:
+Answer: - Object Oriented Programming
+        - Abstraction, Encapsulation, Inheritance, Polymorphism
 
 
 What is Java Package and which package is imported by default?
@@ -76,19 +77,24 @@ Answer:
 
 
 What is API? Name list of API that you have used so far.
-Answer:
+Answer: - Package in Java is a mechanism to encapsulate a group of classes, sub packages and interfaces.
+        - java.lang package is imported by default
 
 
 Does java support multiple inheritance, explain why or why not?
-Answer:
+Answer: - No java doesn't support multiple inheritance directly
+        - because it leads to overriding of methods when both extended class have a same method name.
 
 
 What is method overloading and when it happens?
-Answer:
+Answer: Overloading occurs when two or more methods in one class have the same method name but different parameters.
 
 
 Explain exceptions in java and how to handle it.
-Answer:
+Answer: - An exception object is an instance of an exception class.
+        - It gets created and handed to the Java runtime when an exceptional event occurred that
+          disrupted the normal flow of the application. This is called “to throw an exception” because
+          in Java you use the keyword “throw” to hand the exception to the runtime.
 
 
 What is static keyword in java? How it has been used in variables and methods ?
