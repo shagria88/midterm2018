@@ -11,10 +11,10 @@ public class Fibonacci {
         int fibo[]  =  new int [40];
         for (int i = 0; i < 40; i++){
 
-            if (i < 1) {
+            if (i < 2) {
                 fibo[i] = i;
             }else {
-                fibo[i]=fibo[i=1]+fibo[i-1];
+                fibo[i]=fibo[i-1]+fibo[i-2];
             }
 
         }
