@@ -2,10 +2,27 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A. Programming languages are used in computer programming to create programs that implement specific algorithms.
+
+
 What jdk contains or composed of and define each components?
-A.
+A. Answer: it contains the Java Virtual Machine (JVM)
+
+   Components are:
+   	The Runtime Interpreter
+   	The Compiler
+   	The Applet Viewer
+   	The Debugger
+   	The Class File Disassembler
+   	The Header and Stub File Generator
+   	The Documentation Generator
+   	Applet Demos
+   	API Source Code
+
+
 What is IDE?
-A.
+A. Integrated Development Environment, popular IDE are IntelliJ IDEA, Eclipse, and NetBeans.
+
+
 What are the IDEs available in the market to support java?
 Explain the entire java life cycle.
 what is class?
