@@ -19,6 +19,8 @@ public class FindMissingNumber {
             for (int i= 0; i<a.length; i++){
                 sum = sum+a[i];
 
+
+
             }
             System.out.println(sum);
             int total = 0;
