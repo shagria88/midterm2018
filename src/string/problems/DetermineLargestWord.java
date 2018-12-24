@@ -1,7 +1,6 @@
 package string.problems;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 public class DetermineLargestWord {
@@ -11,16 +10,35 @@ public class DetermineLargestWord {
          Should return "10 biological".
          */
         String s="Human brain is a biological learning machine";
-        Map<Integer, String> wordNLength = findTheLargestWord(s);
+        Map<Integer, String> map = new HashMap<Integer, String>();
         //implement
+
+        System.out.println(findTheLargestWord(s));
 
     }
 
-    public static Map<Integer, String> findTheLargestWord(String wordGiven){
+    public static String findTheLargestWord(String wordGiven){
         Map<Integer, String> map = new HashMap<Integer, String>();
         String st = "";
         //implement
+        String[] arr = wordGiven.split(" ");
+        for (String str: arr) {
 
-        return map;
+            if (map.get(str) == null){
+                map.put(str.length(),str);
+            }
+
+        }
+
+        int map1 = 0;
+        String word = null;
+
+        for (Map.Entry entry: map.entrySet()) {
+            if ((int)entry.getKey() > map1){
+                map1 = (int)entry.getKey();
+                word = (String) entry.getValue();
+            }
+        }
+        return map +" "+ word;
     }
 }
