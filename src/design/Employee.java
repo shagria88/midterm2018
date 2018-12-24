@@ -23,4 +23,14 @@ public interface Employee {
 	//employee benefit
 	public void benefitLayout();
 
+
+	public default void startUpBonus(){
+		System.out.println("employee's bonus are great");
+	}
+
+	public static void housing(){
+		System.out.println("employees have discount for their housing");
+
+	}
+
 }
