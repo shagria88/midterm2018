@@ -7,5 +7,28 @@ public class Palindrome {
           Palindrome. So write java code to check if a given String is Palindrome or not.
          */
 
+        String word1 = "Mom";
+        String word2 = "Dad";
+        checkPalindrome(word1);
+        checkPalindrome(word2);
+        checkPalindrome("Sir");
+        checkPalindrome("Madam");
+
     }
-}
+    public static void checkPalindrome(String word) {
+        String actual = word.toLowerCase();
+        String reverse = "";
+
+        for(int i = actual.length()-1;i>=0;i--) {
+            reverse = reverse + actual.charAt(i);
+
+        }
+        if(actual.equals(reverse)) {
+            System.out.println("Yes it is a palindrome");
+        } else{
+            System.out.println("Not a palindrome");
+        }
+    }
+
+    }
+
