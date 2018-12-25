@@ -25,11 +25,11 @@ public interface Employee {
 
 
 	public default void startUpBonus(){
-		System.out.println("employee's bonus are great");
+		System.out.println("Every employee got 5000$ at start up bonus");
 	}
 
 	public static void housing(){
-		System.out.println("employees have discount for their housing");
+		System.out.println("\nDoctors and postdoc got housing near the hospital in a 50% discounted rate");
 
 	}
 
