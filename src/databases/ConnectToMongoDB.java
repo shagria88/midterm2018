@@ -77,7 +77,7 @@ public class ConnectToMongoDB {
 
     public List<Student> readStudentListFromMongoDB(String profileName){
         List<Student> list = new ArrayList<Student>();
-        Student student = new Student();
+        Student student = new Student("shagria", "kabir", 95, 101);
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection<Document> collection = mongoDatabase.getCollection(profileName);
         BasicDBObject basicDBObject = new BasicDBObject();

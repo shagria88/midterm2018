@@ -32,7 +32,7 @@ public class XmlReader {
 			Node node = nodeList.item(i);
 			if(node instanceof Element){
 				Student student = new Student();
-				student.id = node.getAttributes().getNamedItem(tagName).getNodeValue();
+				student.id = Integer.parseInt(node.getAttributes().getNamedItem(tagName).getNodeValue());
 				NodeList childNodes = node.getChildNodes();
 				for(int j=0;j<childNodes.getLength();j++){
 					Node cNode = childNodes.item(j);
@@ -47,7 +47,7 @@ public class XmlReader {
 								student.lastName = content;
 								break;
 							case "score":
-								student.score = convertIntToChar(content);
+								student.score = Integer.parseInt(convertIntToChar(content));
 								break;
 						}
 					}
@@ -59,21 +59,27 @@ public class XmlReader {
 		return list;
 	}
 
-	//This convert method need to be implemented.
+
+
 	public String convertIntToChar(String score){
 		String grade = "";
-
-		if (Integer.parseInt(score) >= 90) {
+		int grades = Integer.parseInt(score);
+		if (grades >= 94 && grades <=100) {
+			grade = "A+";
+		} else if (grades >= 90 && grades <=93) {
 			grade = "A";
-		} else if (Integer.parseInt(score) >= 80) {
+		} else if (grades >= 85 && grades <=89) {
+			grade = "B+";
+		} else if (grades >= 80 && grades <=84) {
 			grade = "B";
-		} else if (Integer.parseInt(score) >= 70) {
+		}else if (grades >= 70 && grades <=79) {
 			grade = "C";
-		} else if (Integer.parseInt(score) >= 60) {
+		}else if (grades >= 65 && grades <= 69) {
 			grade = "D";
-		} else {
+		}else{
 			grade = "F";
 		}
+
 
 		return grade;
 	}
