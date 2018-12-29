@@ -1,20 +1,22 @@
 package design;
 
-public abstract class AbstractClass implements Employee{
+public abstract class AbstractClass implements Employee {
 
     final String empName = "John Smith";
-    static String resignationDate = "01/01/2010";
+    static String resignationDate = "01/01/2018";
 
-    public void performance (){}
+    public void performance() {
+    }
 
     public void performance(String rating) {
-        System.out.println("Employee performance is "+rating);
+        System.out.println("Employee performance is " + rating);
     }
-    public void farewell(){}
+
+    public void farewell() {
+    }
 
     public void farewell(int date) {
-        System.out.println(empName+"'s last day was"+resignationDate);
+        System.out.println(empName + "'s last day was" + resignationDate);
 
     }
-
 }
